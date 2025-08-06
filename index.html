@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h2>Portfolio</h2>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link">Trang chủ</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">Giới thiệu</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#skills" class="nav-link">Kỹ năng</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#projects" class="nav-link">Dự án</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Liên hệ</a>
+                </li>
+            </ul>
+            <div class="nav-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    Xin chào, tôi là <span class="highlight">Nguyễn Tiến Đạt</span>
+                </h1>
+                <p class="hero-subtitle">Sinh viên IT năm 4 | Full-stack Developer</p>
+                <p class="hero-description">
+                    Đam mê phát triển phần mềm và tạo ra những sản phẩm công nghệ giải quyết vấn đề thực tế.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">Xem dự án</a>
+                    <a href="#contact" class="btn btn-secondary">Liên hệ</a>
+                </div>
+                <div class="social-links">
+                    <a href="https://github.com/NTDat1207" class="social-link"><i class="fab fa-github"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-facebook"></i></a>
+                    <a href="#" class="social-link"><i class="fas fa-envelope"></i></a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="image-container">
+                    <i class="fas fa-user" id="profile-icon"></i>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <a href="#about" class="scroll-arrow">
+                <i class="fas fa-chevron-down"></i>
+            </a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Giới thiệu về tôi</h2>
+                <p class="section-subtitle">Tìm hiểu thêm về hành trình học tập và phát triển của tôi</p>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Sinh viên Công nghệ Thông tin năm 4</h3>
+                    <p>
+                        Tôi là sinh viên năm cuối ngành Công nghệ Thông tin tại Trường Đại học Đà Lạt, 
+                        với 3+ năm kinh nghiệm học tập và thực hành trong lĩnh vực phát triển phần mềm.
+                    </p>
+                    <p>
+                        Có kinh nghiệm làm việc với nhiều công nghệ khác nhau từ Frontend đến Backend, 
+                        cùng với đam mê tìm hiểu các xu hướng công nghệ mới.
+                    </p>
+                    <div class="about-stats">
+                        <div class="stat-item">
+                            <h4>15+</h4>
+                            <p>Dự án hoàn thành</p>
+                        </div>
+                        <div class="stat-item">
+                            <h4>3+</h4>
+                            <p>Năm kinh nghiệm</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <div class="decorative-illustration">
+                        <div class="geometric-shapes">
+                            <div class="shape shape-1"></div>
+                            <div class="shape shape-2"></div>
+                            <div class="shape shape-3"></div>
+                            <div class="shape shape-4"></div>
+                            <div class="shape shape-5"></div>
+                            <div class="shape shape-6"></div>
+                        </div>
+                        <div class="floating-elements">
+                            <div class="floating-icon floating-1">
+                                <i class="fas fa-code"></i>
+                            </div>
+                            <div class="floating-icon floating-2">
+                                <i class="fas fa-laptop"></i>
+                            </div>
+                            <div class="floating-icon floating-3">
+                                <i class="fas fa-rocket"></i>
+                            </div>
+                            <div class="floating-icon floating-4">
+                                <i class="fas fa-lightbulb"></i>
+                            </div>
+                        </div>
+                        <div class="central-element">
+                            <div class="tech-circle">
+                                <i class="fas fa-brain"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Kỹ năng chuyên môn</h2>
+                <p class="section-subtitle">Các công nghệ và kỹ năng tôi đã làm việc</p>
+            </div>
+            <div class="skills-content">
+                <div class="skills-category">
+                    <h3>Frontend Development</h3>
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fab fa-html5"></i>
+                            </div>
+                            <h4>HTML5</h4>
+                            <div class="skill-progress">
+                                <div class="progress-bar" data-percent="90"></div>
+                            </div>
+                            <span class="skill-percent">90%</span>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fab fa-css3-alt"></i>
+                            </div>
+                            <h4>CSS3</h4>
+                            <div class="skill-progress">
+                                <div class="progress-bar" data-percent="85"></div>
+                            </div>
+                            <span class="skill-percent">85%</span>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fab fa-js"></i>
+                            </div>
+                            <h4>JavaScript</h4>
+                            <div class="skill-progress">
+                                <div class="progress-bar" data-percent="80"></div>
+                            </div>
+                            <span class="skill-percent">80%</span>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fab fa-react"></i>
+                            </div>
+                            <h4>React.js</h4>
+                            <div class="skill-progress">
+                                <div class="progress-bar" data-percent="75"></div>
+                            </div>
+                            <span class="skill-percent">75%</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skills-category">
+                    <h3>Backend Development</h3>
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fab fa-node-js"></i>
+                            </div>
+                            <h4>Node.js</h4>
+                            <div class="skill-progress">
+                                <div class="progress-bar" data-percent="70"></div>
+                            </div>
+                            <span class="skill-percent">70%</span>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fab fa-python"></i>
+                            </div>
+                            <h4>Python</h4>
+                            <div class="skill-progress">
+                                <div class="progress-bar" data-percent="80"></div>
+                            </div>
+                            <span class="skill-percent">80%</span>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fas fa-database"></i>
+                            </div>
+                            <h4>MySQL</h4>
+                            <div class="skill-progress">
+                                <div class="progress-bar" data-percent="75"></div>
+                            </div>
+                            <span class="skill-percent">75%</span>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fab fa-java"></i>
+                            </div>
+                            <h4>Java</h4>
+                            <div class="skill-progress">
+                                <div class="progress-bar" data-percent="65"></div>
+                            </div>
+                            <span class="skill-percent">65%</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skills-category">
+                    <h3>Tools & Technologies</h3>
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fab fa-git-alt"></i>
+                            </div>
+                            <h4>Git</h4>
+                            <div class="skill-progress">
+                                <div class="progress-bar" data-percent="85"></div>
+                            </div>
+                            <span class="skill-percent">85%</span>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fab fa-github"></i>
+                            </div>
+                            <h4>Github</h4>
+                            <div class="skill-progress">
+                                <div class="progress-bar" data-percent="80"></div>
+                            </div>
+                            <span class="skill-percent">80%</span>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fab fa-docker"></i>
+                            </div>
+                            <h4>Docker</h4>
+                            <div class="skill-progress">
+                                <div class="progress-bar" data-percent="65"></div>
+                            </div>
+                            <span class="skill-percent">65%</span>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fas fa-code"></i>
+                            </div>
+                            <h4>VS Code</h4>
+                            <div class="skill-progress">
+                                <div class="progress-bar" data-percent="90"></div>
+                            </div>
+                            <span class="skill-percent">90%</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Dự án nổi bật</h2>
+                <p class="section-subtitle">Một số dự án tôi đã thực hiện trong quá trình học tập</p>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image project-bg-1">
+                        <div class="project-icon">
+                            <i class="fas fa-shopping-cart"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link"><i class="fas fa-eye"></i></a>
+                                <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-category">Web Development</div>
+                        <h3>Website Thương mại Điện tử</h3>
+                        <p>Xây dựng website bán hàng trực tuyến hoàn chỉnh với React.js và Node.js, tích hợp thanh toán và quản lý đơn hàng.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">React</span>
+                            <span class="tech-tag">Node.js</span>
+                            <span class="tech-tag">MongoDB</span>
+                            <span class="tech-tag">Express</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image project-bg-2">
+                        <div class="project-icon">
+                            <i class="fas fa-blog"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link"><i class="fas fa-eye"></i></a>
+                                <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-category">Web Development</div>
+                        <h3>Website Blog Cá nhân</h3>
+                        <p>Phát triển blog cá nhân với CMS tùy chỉnh, hỗ trợ markdown, SEO và responsive design trên mọi thiết bị.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML5</span>
+                            <span class="tech-tag">CSS3</span>
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">PHP</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image project-bg-3">
+                        <div class="project-icon">
+                            <i class="fas fa-building"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link"><i class="fas fa-eye"></i></a>
+                                <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-category">Web Development</div>
+                        <h3>Website Doanh nghiệp</h3>
+                        <p>Thiết kế và phát triển website giới thiệu doanh nghiệp với admin panel, tối ưu SEO và tốc độ tải trang.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Vue.js</span>
+                            <span class="tech-tag">Laravel</span>
+                            <span class="tech-tag">MySQL</span>
+                            <span class="tech-tag">Bootstrap</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Liên hệ với tôi</h2>
+                <p class="section-subtitle">Hãy kết nối để thảo luận về cơ hội hợp tác</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Thông tin liên hệ</h3>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Email</h4>
+                            <p>2212353@dlu.edu.vn</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Điện thoại</h4>
+                            <p>+84 123 456 789</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Địa chỉ</h4>
+                            <p>Đà Lạt, Việt Nam</p>
+                        </div>
+                    </div>
+                    <div class="contact-social">
+                        <h4>Theo dõi tôi</h4>
+                        <div class="social-links">
+                            <a href="https://github.com/NTDat1207" class="social-link"><i class="fab fa-github"></i></a>
+                            <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+                            <a href="#" class="social-link"><i class="fab fa-facebook"></i></a>
+                            <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <h3>Gửi tin nhắn</h3>
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="Họ và tên" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" id="subject" name="subject" placeholder="Tiêu đề" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" placeholder="Nội dung tin nhắn" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Gửi tin nhắn</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-text">
+                    <p>&copy; 2025 Portfolio</p>
+                </div>
+                <div class="footer-links">
+                    <a href="#home">Trang chủ</a>
+                    <a href="#about">Giới thiệu</a>
+                    <a href="#projects">Dự án</a>
+                    <a href="#contact">Liên hệ</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="js/script.js"></script>
+</body>
+</html>
